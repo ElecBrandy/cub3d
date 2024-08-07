@@ -6,7 +6,7 @@
 /*   By: dongwook <dongwook@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/06 14:47:52 by dongwook          #+#    #+#             */
-/*   Updated: 2024/08/06 15:45:39 by dongwook         ###   ########.fr       */
+/*   Updated: 2024/08/07 17:13:42 by dongwook         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,15 +14,17 @@
 # define CUB3D_H
 
 # include <mlx.h>
-# include <math.h>
-// # include <fcntl.h>
-# include <stdlib.h>
-# include <unistd.h>
-
+#include "key_macos.h"
+#include <math.h>
+#include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
+#define X_EVENT_KEY_PRESS	2
+#define X_EVENT_KEY_EXIT	17
 #define mapWidth 24
 #define mapHeight 24
-#define screenWidth 640
-#define screenHeight 480
+#define width 640
+#define height 480
 
 int worldMap[mapWidth][mapHeight]=
 {
