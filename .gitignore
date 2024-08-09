@@ -1,0 +1,8 @@
+*.o
+*.dylib
+*.exe
+*.out
+.tmp_versions/
+cub3D
+.vscode
+.DS_Store
